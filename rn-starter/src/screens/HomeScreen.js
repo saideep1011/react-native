@@ -10,6 +10,12 @@ const HomeScreen = ({navigation}) => {
     <Button onPress={()=>navigation.navigate('Image') }
     title=
     "Go to Image Screen"/>
+    <Button onPress={()=>navigation.navigate('Counter') }
+    title=
+    "Go to Counter screen"/>
+    <Button onPress={()=>navigation.navigate('Colour') }
+    title=
+    "Go to Colour screen"/>
     <TouchableOpacity onPress={()=>navigation.navigate('List') }>
       <Text>go to list demo</Text>
     </TouchableOpacity>
