@@ -5,9 +5,9 @@ import ImageDetail from "../components/ImageDetail";
 export default function ImageScreen() {
     return (
         <View>
-            <ImageDetail title="messi"/>
-            <ImageDetail title="neymar"/>
-            <ImageDetail title="suarez"/>
+            <ImageDetail title="messi" imageSource={require('../../assets/beach.jpg')}/>
+            <ImageDetail title="neymar" imageSource={require('../../assets/forest.jpg')}/> 
+            <ImageDetail title="suarez" imageSource={require('../../assets/mountain.jpg')}/>
         </View>
     )
 }
