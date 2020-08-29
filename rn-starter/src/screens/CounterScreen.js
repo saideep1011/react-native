@@ -16,15 +16,15 @@ export default function CounterScreen() {
     const [state, dispatch]= useReducer(reducer, {count:0});
     return (
         <View>
-            < Button title='increase' onPress={() =>{
-                dispatch({type:'increment', payload:1})
-                
-            }}/>
-                        < Button title='decrease' onPress={() =>{
-                            dispatch({type:'decrement', payload:1})
-                
-            }}/>
-            <Text>current count {state.count}</Text>
+        < Button title='increase' 
+        onPress={() =>{
+         dispatch({type:'increment', payload:1})
+        }}/>
+         < Button title='decrease' 
+        onPress={() =>{
+        dispatch({type:'decrement', payload:1})
+        }}/>
+        <Text>current count {state.count}</Text>
         </View>
     )
 }
