@@ -4,7 +4,9 @@ import { View, Text,StyleSheet, TextInput } from 'react-native'
 export default function TextScreen() {
     return (
         <View>
-            <TextInput style={styles.input}/>
+            <TextInput style={styles.input}
+            autoCapitalize="none"
+            />
         </View>
     )
 }
